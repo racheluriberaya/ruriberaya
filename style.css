@@ -1,0 +1,130 @@
+html {
+    background: #e6e9e9;
+    background-image: linear-gradient(270deg, rgb(230, 233, 233) 0%, rgb(216, 221, 221) 100%);
+    -webkit-font-smoothing: antialiased;
+} 
+
+body {background: #231f20;
+    box-shadow: 0 0 2px rgba(0, 0, 0, 0.0);
+    color: whitesmoke;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    margin: 0 auto;
+    width: 1200px;
+    padding: 2em 2em 4em;}  
+
+#nav{
+    margin-bottom: 50px;
+    width: 1200px;
+    text-align: right;
+    float: right;
+    
+}
+
+#nav_wrapper{
+    max-width:1500px;
+    margin:0 auto;
+    text-align: left;
+    
+}
+
+#nav ul{
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    position: relative;
+}
+
+#nav ul {
+    display: none;
+}
+#nav ul.open {
+    display: block;
+}
+
+#nav ul li:hover{
+    background-color: #333;
+}
+
+#nav ul li a, visited{
+    color: whitesmoke;
+    display: block;
+    padding: 15px;
+    text-decoration: none;
+}
+
+#nav ul li a:hover{
+    color: #ccc;
+    text-decoration: none;
+}
+
+#navicon{
+    float: right;
+ 
+}
+
+/* HERO IMAGE SECTION */
+    #splashscreen,
+    #tombrady-01, {
+        height: 400px;
+        background-image: url(images/splash%20screen.svg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: 50% 0;
+    }        
+
+    #tombrady-01 {
+        background-image: url(images/tom%20brady-01.jpg);
+    }
+
+   
+/* rachel-r1 images*/
+.image-container {
+    padding-top: 3%;
+    width: 90%;
+    max-width: 1100px;
+    margin: 0 auto;
+}
+
+
+.image-item {
+    display: inline-block;
+    vertical-align: text-top;
+    padding: 50px;
+    margin-left: 50px;
+}
+
+@media (max-width: 768px)
+.image-item .column-left {
+    margin-right: 0px;
+}
+
+.image-item .column-right {
+    border: 2px;
+}
+
+
+.footer{
+    box-shadow: 0 0 2px rgba(0, 0, 0, 0.0);
+    box-shadow: 0 0 2px rgba(0, 0, 0, 0.0);
+    color: whitesmoke;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    margin: 5px;
+    max-width: 1200px;
+    padding: 5px;
+    text-align: center;
+}
+
+/*Contact website*/
+
+.image{
+    width: 50%;
+    padding: 50px;
+}
+
+p{
+    text-decoration: none;
+}
