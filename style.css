@@ -1,7 +1,6 @@
 html {
-    background: #e6e9e9;
-    background-image: linear-gradient(270deg, rgb(230, 233, 233) 0%, rgb(216, 221, 221) 100%);
-    -webkit-font-smoothing: antialiased;
+    background: #231f20;
+    
 } 
 
 body {background: #231f20;
@@ -105,18 +104,7 @@ body {background: #231f20;
 }
 
 
-.footer{
-    box-shadow: 0 0 2px rgba(0, 0, 0, 0.0);
-    box-shadow: 0 0 2px rgba(0, 0, 0, 0.0);
-    color: whitesmoke;
-    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-    font-size: 16px;
-    line-height: 1.5;
-    margin: 5px;
-    max-width: 1200px;
-    padding: 5px;
-    text-align: center;
-}
+
 
 /*Contact website*/
 
@@ -127,4 +115,77 @@ body {background: #231f20;
 
 p{
     text-decoration: none;
+}
+
+nav a {
+    display: inline-block;
+    padding: 10px 10px 10px 10px;
+    float: center;
+}
+a {
+    color: steelblue;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+/*about*/
+
+
+}
+.about {
+    margin-bottom: 41px;
+}
+
+
+/*writing*/
+
+
+
+.writing {
+    margin-bottom: 30px;
+}
+.about, .writing {
+    width: 330px;
+    float: left;
+    margin-left: 10px;
+}
+
+/*image of seattle*/
+
+
+.selfie {
+    width: 30%;
+    float: right;
+    clear: none;
+    margin-right: 10px;
+}
+
+.footer{
+    color: whitesmoke;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 13px;
+    line-height: 1.5;
+    margin-left: 100%;
+    width: -100%;
+    padding: 0;
+    margin-left: 70%;
+    text-align: left;
+    position: absolute;
+    bottom: -50px;
+}
+
+/*contact*/
+nav {
+    font-family: 'roboto', sans-serif;
+    font-size: 1.2em;
+    text-align: left;
+    margin: 0px;
+    padding: 41px 70px;
+    background: rgba(73,83,56,.8);
+    list-style: none;
+}
+
+nav{
+    display:block;
 }
